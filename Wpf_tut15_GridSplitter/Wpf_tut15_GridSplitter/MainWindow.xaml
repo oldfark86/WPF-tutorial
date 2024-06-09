@@ -1,0 +1,42 @@
+﻿<Window x:Class="Wpf_tut15_GridSplitter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_tut15_GridSplitter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Fill="Red"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="139*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="267*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="267*"/>
+            </Grid.ColumnDefinitions>
+            <Rectangle Grid.Column="0" Fill="Yellow" HorizontalAlignment="Center" Width="267"/>
+            <Rectangle Grid.Column="2" Fill="Orange"/>
+            <Rectangle Grid.Column="4" Fill="Green"/>
+            <GridSplitter Grid.Column="1" HorizontalAlignment="Stretch"/>
+            <GridSplitter Grid.Column="3" HorizontalAlignment="Stretch"/>
+
+        </Grid>
+
+        <Rectangle Grid.Row="1"/>
+
+        <GridSplitter Grid.Row="2" HorizontalAlignment="Stretch"/>
+
+
+        <Rectangle Grid.Row="3" Fill="Blue"/>
+    </Grid>
+</Window>

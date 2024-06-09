@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_tut20_Open_Custom_Window_w_Show_ShowDialog", "Wpf_tut20_Open_Custom_Window_w_Show_ShowDialog\Wpf_tut20_Open_Custom_Window_w_Show_ShowDialog.csproj", "{1B5B10B9-2F3D-472B-A3D3-D1D4BBA3A492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5B10B9-2F3D-472B-A3D3-D1D4BBA3A492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5B10B9-2F3D-472B-A3D3-D1D4BBA3A492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5B10B9-2F3D-472B-A3D3-D1D4BBA3A492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5B10B9-2F3D-472B-A3D3-D1D4BBA3A492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {950A616D-B829-46CC-BD87-4156AFF0AD4B}
+	EndGlobalSection
+EndGlobal
